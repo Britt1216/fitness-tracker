@@ -12,9 +12,9 @@
 
 <body>
   <nav>
-    <a href="/">Fitness Tracker</a>
-    <a href="/stats">Dashboard</a>
-  </nav>
+       <div class="buttons">
+        <a id="home-btn" href="./stats.html" class="huge ui blue button">Workout Dashboard</a>
+    </nav>
   <div class="wrapper">
     <header>
       <h1>Fitness Tracker</h1>
@@ -68,10 +68,10 @@
             </div>
           </div>
           <div class="buttons">
-            <button disabled class="huge ui blue button complete">
+            <button class="huge ui blue button complete">
               Complete
             </button>
-            <button disabled class="huge ui positive button add-another">
+            <button class="huge ui positive button add-another">
               Add Exercise
             </button>
           </div>
@@ -79,8 +79,6 @@
       </div>
     </div>
   </div>
-  <div id="toast">
-    Workout Added Successfully!
   </div>
   <script src="/assets/js/api.js"></script>
   <script src="/assets/js/exercise.js"></script>
