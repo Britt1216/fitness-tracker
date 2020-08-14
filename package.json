@@ -1,0 +1,29 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "fitness tracker, exercise, exercise log",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Britt1216/fitness-tracker.git"
+  },
+  "keywords": [
+    "exercise",
+    "tracker",
+    "log"
+  ],
+  "author": "BR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Britt1216/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/Britt1216/fitness-tracker#readme"
+}
